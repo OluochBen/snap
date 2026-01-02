@@ -31,6 +31,9 @@ dropdownToggles.forEach((button) => {
     button.setAttribute('aria-expanded', String(!isOpen));
     button.parentElement?.classList.toggle('open', !isOpen);
   });
+
+  const menuEl = document.getElementById(button.getAttribute('data-dropdown-toggle'));
+  menuEl?.addEventListener('click', () => closeAllDropdowns());
 });
 
 document.addEventListener('click', (event) => {

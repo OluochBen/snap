@@ -31,19 +31,19 @@
               <img class="dropdown__arrow" src="images/icon-arrow-down.svg" alt="">
             </button>
             <div class="dropdown__menu" id="features-menu" hidden>
-              <a class="dropdown__item" href="#">
+              <a class="dropdown__item" href="#features">
                 <img src="images/icon-todo.svg" alt="">
                 <span>Todo List</span>
               </a>
-              <a class="dropdown__item" href="#">
+              <a class="dropdown__item" href="#features">
                 <img src="images/icon-calendar.svg" alt="">
                 <span>Calendar</span>
               </a>
-              <a class="dropdown__item" href="#">
+              <a class="dropdown__item" href="#features">
                 <img src="images/icon-reminders.svg" alt="">
                 <span>Reminders</span>
               </a>
-              <a class="dropdown__item" href="#">
+              <a class="dropdown__item" href="#features">
                 <img src="images/icon-planning.svg" alt="">
                 <span>Planning</span>
               </a>
@@ -56,19 +56,19 @@
               <img class="dropdown__arrow" src="images/icon-arrow-down.svg" alt="">
             </button>
             <div class="dropdown__menu" id="company-menu" hidden>
-              <a class="dropdown__item" href="#">History</a>
-              <a class="dropdown__item" href="#">Our Team</a>
-              <a class="dropdown__item" href="#">Blog</a>
+              <a class="dropdown__item" href="#story">History</a>
+              <a class="dropdown__item" href="#team">Our Team</a>
+              <a class="dropdown__item" href="#blog">Blog</a>
             </div>
           </div>
 
-          <a class="nav__link" href="#">Careers</a>
-          <a class="nav__link" href="#">About</a>
+          <a class="nav__link" href="#careers">Careers</a>
+          <a class="nav__link" href="#about">About</a>
         </div>
 
         <div class="nav__auth">
-          <a class="nav__auth-link" href="#">Login</a>
-          <a class="nav__auth-button" href="#">Register</a>
+          <a class="nav__auth-link" href="#login">Login</a>
+          <a class="nav__auth-button" href="#signup">Register</a>
         </div>
       </div>
     </div>
@@ -100,9 +100,183 @@
     </div>
   </main>
 
+  <section class="section" id="features">
+    <div class="section__header">
+      <p class="eyebrow">What we offer</p>
+      <h2>Tools built for modern teams</h2>
+      <p class="section__lede">Plan work, keep everyone in the loop, and automate the busywork with a single workspace.</p>
+    </div>
+    <div class="feature-grid">
+      <article class="feature-card">
+        <img src="images/icon-todo.svg" alt="" class="feature-card__icon">
+        <h3>Todo and tasks</h3>
+        <p>Set rituals, clarify priorities, and keep delivery dates visible to the whole team.</p>
+      </article>
+      <article class="feature-card">
+        <img src="images/icon-calendar.svg" alt="" class="feature-card__icon">
+        <h3>Calendar sync</h3>
+        <p>Share schedules across timezones and reduce meeting overload with smart reminders.</p>
+      </article>
+      <article class="feature-card">
+        <img src="images/icon-reminders.svg" alt="" class="feature-card__icon">
+        <h3>Automated nudges</h3>
+        <p>Stay on track with tailored reminders that keep projects moving without micromanagement.</p>
+      </article>
+      <article class="feature-card">
+        <img src="images/icon-planning.svg" alt="" class="feature-card__icon">
+        <h3>Scenario planning</h3>
+        <p>Map outcomes, model timelines, and align stakeholders before work starts.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="story">
+    <div class="section__split">
+      <div class="section__copy">
+        <p class="eyebrow">Our story</p>
+        <h2>Built for remote collaboration</h2>
+        <p>We started as a distributed team across three continents. Every decision, from video standups to async planning, is designed to keep people connected without losing focus.</p>
+        <ul class="bullet-list">
+          <li>Real-time updates across devices</li>
+          <li>Privacy-first messaging and docs</li>
+          <li>Enterprise-grade controls and audit trails</li>
+        </ul>
+      </div>
+      <div class="section__panel">
+        <div class="stat">
+          <span class="stat__number">120k</span>
+          <span class="stat__label">teams shipped faster</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">60%</span>
+          <span class="stat__label">fewer status meetings</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">4.8★</span>
+          <span class="stat__label">customer satisfaction</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <div class="section__header">
+      <p class="eyebrow">Testimonials</p>
+      <h2>Teams trust Snap to work smarter</h2>
+    </div>
+    <div class="testimonial-grid">
+      <article class="testimonial">
+        <p class="testimonial__quote">“Snap helped us replace four tools and gave our remote crews a single source of truth.”</p>
+        <div class="testimonial__meta">
+          <div>
+            <p class="testimonial__name">Priya Desai</p>
+            <p class="testimonial__role">VP Operations, Databiz</p>
+          </div>
+        </div>
+      </article>
+      <article class="testimonial">
+        <p class="testimonial__quote">“Our meetings are shorter, decisions are clearer, and we finally ship on schedule.”</p>
+        <div class="testimonial__meta">
+          <div>
+            <p class="testimonial__name">Leo Anderson</p>
+            <p class="testimonial__role">Director of Product, Audiophile</p>
+          </div>
+        </div>
+      </article>
+      <article class="testimonial">
+        <p class="testimonial__quote">“Snap made async collaboration feel effortless. The automation saves hours every week.”</p>
+        <div class="testimonial__meta">
+          <div>
+            <p class="testimonial__name">Cecilia Han</p>
+            <p class="testimonial__role">Eng Manager, Meet</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section--cta" id="careers">
+    <div class="section__split">
+      <div class="section__copy">
+        <p class="eyebrow">Careers</p>
+        <h2>Join a fully distributed team</h2>
+        <p>We hire wherever great talent lives. If you love product craftsmanship, remote-first culture, and thoughtful async communication, we’d love to meet you.</p>
+        <div class="cta-buttons">
+          <a class="hero__cta" href="#signup" id="signup">See open roles</a>
+          <a class="nav__auth-button nav__auth-button--light" href="#about" id="login">Meet the team</a>
+        </div>
+      </div>
+      <div class="section__panel section__panel--list" id="team">
+        <h3>Open roles</h3>
+        <ul class="role-list">
+          <li><span>Senior Product Designer</span><span>Remote</span></li>
+          <li><span>Staff Frontend Engineer</span><span>Remote (Americas)</span></li>
+          <li><span>Customer Success Lead</span><span>Remote (EMEA)</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="blog">
+    <div class="section__header">
+      <p class="eyebrow">Resources</p>
+      <h2>Latest from the blog</h2>
+    </div>
+    <div class="blog-grid">
+      <article class="blog-card">
+        <p class="blog-card__tag">Process</p>
+        <h3>How to run async sprints</h3>
+        <p>Use rituals that keep momentum without exhausting your calendar.</p>
+        <a href="#" class="blog-card__link">Read story</a>
+      </article>
+      <article class="blog-card">
+        <p class="blog-card__tag">Culture</p>
+        <h3>Designing for focus time</h3>
+        <p>Protect deep work by giving teams visibility without interruptions.</p>
+        <a href="#" class="blog-card__link">Read story</a>
+      </article>
+      <article class="blog-card">
+        <p class="blog-card__tag">Product</p>
+        <h3>Automations that actually help</h3>
+        <p>Small nudges, big impact—our favorite workflows to copy.</p>
+        <a href="#" class="blog-card__link">Read story</a>
+      </article>
+    </div>
+  </section>
+
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/">Your Name Here</a>.
+    <div class="footer__content">
+      <div class="footer__brand" id="about">
+        <img src="images/logo.svg" alt="Snap logo">
+        <p>Built for teams who want remote work to feel seamless.</p>
+        <div class="hero__clients">
+          <img src="images/client-databiz.svg" alt="Databiz">
+          <img src="images/client-audiophile.svg" alt="Audiophile">
+          <img src="images/client-meet.svg" alt="Meet">
+          <img src="images/client-maker.svg" alt="Maker">
+        </div>
+      </div>
+      <div class="footer__links">
+        <div>
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#blog">Blog</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="#story">About</a>
+          <a href="#careers">Careers</a>
+          <a href="#team">Team</a>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="#login">Login</a>
+          <a href="#signup">Get started</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer__credit">Ben Oluoch 2026.</p>
   </footer>
 
   <script src="script.js"></script>
