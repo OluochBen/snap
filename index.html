@@ -25,43 +25,8 @@
           <img src="images/icon-close-menu.svg" alt="">
         </button>
         <div class="nav__links">
-          <div class="dropdown">
-            <button class="dropdown__toggle" type="button" aria-expanded="false" aria-controls="features-menu" data-dropdown-toggle="features-menu">
-              <span>Features</span>
-              <img class="dropdown__arrow" src="images/icon-arrow-down.svg" alt="">
-            </button>
-            <div class="dropdown__menu" id="features-menu" hidden>
-              <a class="dropdown__item" href="#features">
-                <img src="images/icon-todo.svg" alt="">
-                <span>Todo List</span>
-              </a>
-              <a class="dropdown__item" href="#features">
-                <img src="images/icon-calendar.svg" alt="">
-                <span>Calendar</span>
-              </a>
-              <a class="dropdown__item" href="#features">
-                <img src="images/icon-reminders.svg" alt="">
-                <span>Reminders</span>
-              </a>
-              <a class="dropdown__item" href="#features">
-                <img src="images/icon-planning.svg" alt="">
-                <span>Planning</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropdown__toggle" type="button" aria-expanded="false" aria-controls="company-menu" data-dropdown-toggle="company-menu">
-              <span>Company</span>
-              <img class="dropdown__arrow" src="images/icon-arrow-down.svg" alt="">
-            </button>
-            <div class="dropdown__menu" id="company-menu" hidden>
-              <a class="dropdown__item" href="#story">History</a>
-              <a class="dropdown__item" href="#team">Our Team</a>
-              <a class="dropdown__item" href="#blog">Blog</a>
-            </div>
-          </div>
-
+          <a class="nav__link" href="#features">Features</a>
+          <a class="nav__link" href="#company">Company</a>
           <a class="nav__link" href="#careers">Careers</a>
           <a class="nav__link" href="#about">About</a>
         </div>
@@ -89,7 +54,7 @@
           Get your team in sync, no matter your location. Streamline processes, create team rituals,
           and watch productivity soar.
         </p>
-        <a class="hero__cta" href="#">Learn more</a>
+        <a class="hero__cta" href="#features">Learn more</a>
         <div class="hero__clients">
           <img src="images/client-databiz.svg" alt="Databiz">
           <img src="images/client-audiophile.svg" alt="Audiophile">
@@ -130,10 +95,10 @@
     </div>
   </section>
 
-  <section class="section section--alt" id="story">
+  <section class="section section--alt" id="company">
     <div class="section__split">
       <div class="section__copy">
-        <p class="eyebrow">Our story</p>
+        <p class="eyebrow">Company</p>
         <h2>Built for remote collaboration</h2>
         <p>We started as a distributed team across three continents. Every decision, from video standups to async planning, is designed to keep people connected without losing focus.</p>
         <ul class="bullet-list">
@@ -154,6 +119,63 @@
         <div class="stat">
           <span class="stat__number">4.8★</span>
           <span class="stat__label">customer satisfaction</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section__split">
+      <div class="section__copy">
+        <p class="eyebrow">About</p>
+        <h2>People-first, product-obsessed</h2>
+        <p>We believe distributed teams can move faster when trust, clarity, and craft come first. We default to async, document our decisions, and design features that respect focus time.</p>
+        <div class="values">
+          <div class="value">
+            <h3>Clarity</h3>
+            <p>Transparent roadmaps, shared rituals, and measurable goals keep every teammate aligned.</p>
+          </div>
+          <div class="value">
+            <h3>Craft</h3>
+            <p>We sweat the details, from accessibility to performance, so teams feel confident shipping.</p>
+          </div>
+          <div class="value">
+            <h3>Care</h3>
+            <p>Flexible schedules, generous wellness time, and mentorship help people thrive long term.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section__panel section__panel--list">
+        <h3>Leadership</h3>
+        <div class="leadership">
+          <article class="leader">
+            <img class="leader__photo" src="images/profile-image.png" alt="Portrait of Ben Oluoch">
+            <div>
+              <p class="leader__name">Ben Oluoch</p>
+              <p class="leader__role">CEO</p>
+            </div>
+          </article>
+          <article class="leader">
+            <img class="leader__photo" src="images/business-headshot-png-xoy-ea8nwibt2p0gwk5q.png" alt="Portrait of Amira Shah">
+            <div>
+              <p class="leader__name">Amira Shah</p>
+              <p class="leader__role">Head of Product</p>
+            </div>
+          </article>
+          <article class="leader">
+            <img class="leader__photo" src="images/creative-director-headshot-png-deg-clu9nryqckrsb3ky.png" alt="Portrait of Diego Paredes">
+            <div>
+              <p class="leader__name">Diego Paredes</p>
+              <p class="leader__role">CTO</p>
+            </div>
+          </article>
+          <article class="leader">
+            <img class="leader__photo" src="images/actor-spotlight-headshot-png-06252024-txrluqfz3c489k2i.png" alt="Portrait of Sofia Martins">
+            <div>
+              <p class="leader__name">Sofia Martins</p>
+              <p class="leader__role">Head of People</p>
+            </div>
+          </article>
         </div>
       </div>
     </div>
@@ -276,7 +298,8 @@
         </div>
         <div>
           <h4>Company</h4>
-          <a href="#story">About</a>
+          <a href="#company">Company</a>
+          <a href="#about">About</a>
           <a href="#careers">Careers</a>
           <a href="#team">Team</a>
         </div>
