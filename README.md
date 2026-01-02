@@ -41,12 +41,6 @@ This build keeps the original spirit of the challenge while adding fuller conten
 - Keeping navigation simple (links vs. dropdowns) improves layout clarity and accessibility.
 - Smooth scrolling and scroll-margin help anchor targets land neatly below a fixed header area.
 
-## Future improvements
-- Add a resources page and refine blog cards with real links.
-- Enhance mobile nav with focus trapping and initial focus on open.
-- Wire a lightweight form for “Register”/”See open roles”.
-
 ## Author
-- Ben Oluoch  
-- Frontend Mentor: https://www.frontendmentor.io/profile/OluochBen  
+- Ben Oluoch 
 - GitHub: https://github.com/OluochBen
