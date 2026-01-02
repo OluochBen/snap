@@ -185,6 +185,7 @@ button {
   max-width: 1120px;
   margin: 0 auto;
   padding: 24px 16px 96px;
+  margin-bottom: 72px;
 }
 
 .hero__grid {
@@ -253,6 +254,7 @@ button {
   padding: 32px 16px 96px;
   display: grid;
   gap: 40px;
+  margin-bottom: 72px;
 }
 
 .section__header {
@@ -680,6 +682,7 @@ button {
 
   .section {
     padding: 16px 16px 72px;
+    margin-bottom: 56px;
   }
 
   .section__header {
