@@ -48,5 +48,5 @@ This build keeps the original spirit of the challenge while adding fuller conten
 
 ## Author
 - Ben Oluoch  
-- Frontend Mentor: coming soon  
-- GitHub: coming soon
+- Frontend Mentor: https://www.frontendmentor.io/profile/OluochBen  
+- GitHub: https://github.com/OluochBen
