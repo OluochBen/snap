@@ -537,6 +537,38 @@ button {
   max-width: 420px;
 }
 
+.footer__social {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.footer__social a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  transition: background 150ms ease, transform 150ms ease;
+}
+
+.footer__social a:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+.footer__social svg {
+  width: 18px;
+  height: 18px;
+  fill: #f6f6f6;
+}
+
+.footer__logo {
+  filter: brightness(0) invert(1);
+}
+
 .footer__links {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 }
